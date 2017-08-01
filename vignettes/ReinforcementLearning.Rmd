@@ -83,7 +83,7 @@ Note:
 The state transition tuples can be collected from an external source and easily read-in into *R*. The sample experience can then be used to train a reinforcement learning agent without requiring further interaction with the environment. The following example shows a representative dataset containing game states of 100,000 randomly sampled Tic-Tac-Toe games. 
 
 ```{r, message=FALSE}
-data("tictactoe")
+data("tictactoe",package="ReinforcementLearning")
 head(tictactoe, 5)
 ```
 
